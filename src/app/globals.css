@@ -2,6 +2,30 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Light Mode Styles */
+body.light {
+  background-color: #ffffff; /* Light background */
+  color: #000000; /* Light text */
+}
+
+body.light .text-black {
+  color: #000000; /* Ensure text color is black in light mode */
+}
+
+/* Dark Mode Styles */
+body.dark {
+  background-color: #1f1f1f; /* Dark background */
+  color: #ffffff; /* Dark text */
+}
+
+body.dark .text-white {
+  color: #ffffff; /* Ensure text color is white in dark mode */
+}
+
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;

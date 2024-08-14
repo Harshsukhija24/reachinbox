@@ -7,6 +7,7 @@ import Midtop from "./Components/Midtop";
 import Reply from "./Components/Reply";
 import DeleteButton from "./Components/DeleteButton";
 import Message from "./Components/Message";
+import RightClick from "./Components/rightclick";
 
 const pagepage = () => {
   return (
